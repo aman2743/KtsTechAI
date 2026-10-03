@@ -40,7 +40,7 @@ function Benefits() {
         <div>
           <p className="mb-[22px] flex items-center gap-2.5 text-[11px] font-extrabold uppercase tracking-[0.16em] text-[#72934a]">
             <span className="inline-block h-0.5 w-[29px] bg-current" />
-            Why ktstechai
+            Why KtsTechAi
           </p>
 
           <h2 className="m-0 mb-[23px] text-[clamp(43px,5.3vw,70px)] font-[680] leading-[0.96] tracking-[-0.065em] text-[#1d302d]">

@@ -59,7 +59,7 @@ const Footer = () => {
 
               <div>
                 <div className="text-xl font-bold tracking-[-0.03em]">
-                  ktstechai
+                  KtsTechAi
                 </div>
 
                 <div className="text-xs font-medium text-white/45">
@@ -151,9 +151,11 @@ const Footer = () => {
                 />
 
                 <span className="text-[15px] leading-6 text-white/55">
-                  Noida,
+                  SHOP NO-2 SHAHMAL PHALWAN COMPLEX 
+                    OLD HAIBATPUR, NEAR BRAHMA  MANDIR, 
                   <br />
-                  Uttar Pradesh, India
+                  
+                    GAUTAM BUDH NAGAR - 201301
                 </span>
               </li>
 
@@ -178,7 +180,7 @@ const Footer = () => {
                 />
 
                 <span className="text-[15px] text-white/55">
-                  +91 XXXXX XXXXX
+                  +91 7048993705
                 </span>
               </li>
 
@@ -193,7 +195,7 @@ const Footer = () => {
           <div className="flex items-center justify-between gap-6 max-[780px]:flex-col max-[780px]:items-start">
 
             <p className="text-sm text-white/35">
-              © 2026 ktstechai. All rights reserved.
+              © 2026 KtsTechAi. All rights reserved.
             </p>
 
             <div className="flex items-center gap-6 text-sm text-white/35">

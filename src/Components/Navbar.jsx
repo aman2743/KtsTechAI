@@ -32,7 +32,7 @@ function Navbar() {
         </span>
 
         <span>
-          Ktste<span className="text-[#b5d548]">Chai</span>
+          Kts<span className="text-[#b5d548]">TechAi</span>
         </span>
       </a>
 
