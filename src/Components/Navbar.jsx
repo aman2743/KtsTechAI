@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { ArrowRight, Menu, PackageCheck, X } from "lucide-react";
+import LogoImg from "../assets/logo.png";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -9,12 +10,12 @@ function Navbar() {
   };
 
   const navItems = [
-    { label: "Solutions", href: "#solution" },
-    { label: "Features", href: "#benefits" },
-    { label: "How It Works", href: "#company" },
-    { label: "About Us", href: "#company" },
-    { label: "Our Work", href: "#solution" },
-    { label: "Contact", href: "#contact" },
+    { label: "Solutions", href: "" },
+    { label: "Features", href: "" },
+    { label: "How It Works", href: "" },
+    { label: "About Us", href: "" },
+    { label: "Our Work", href: "" },
+    { label: "Contact", href: "" },
   ];
 
   return (
@@ -27,8 +28,8 @@ function Navbar() {
         aria-label="LogicForge home"
         className="inline-flex items-center gap-2.5 text-[21px] font-[750] tracking-[-0.8px] text-white"
       >
-        <span className="grid size-[34px] place-items-center rounded-[10px] bg-[#b5d548] text-[#1a2a21]">
-          <PackageCheck size={22} strokeWidth={2.5} />
+        <span className="grid size-[34px] place-items-center rounded-[10px] bg-[#9fc70f] text-[#1a2a21]">
+          <img src={LogoImg} size={22} strokeWidth={2.5} />
         </span>
 
         <span>

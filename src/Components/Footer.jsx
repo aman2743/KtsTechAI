@@ -7,19 +7,19 @@ import {
   ShieldCheck,
   Sparkles,
 } from "lucide-react";
+import LogoImg from "../assets/logo.png";
+
 
 const Footer = () => {
   const productLinks = [
-    "Features",
-    "Dashboard",
-    "Student Management",
-    "Attendance",
-    "Examinations",
-    "Reports",
-  ];
+  "Web Applications",
+  "UI/UX Development",
+  "API & Integrations",
+  "Digital Solutions",
+];
 
   const companyLinks = [
-    "About KtsteChai",
+    "About KtsTechAi",
     "Our Work",
     "How It Works",
     "Contact",
@@ -53,8 +53,8 @@ const Footer = () => {
               href="#home"
               className="mb-6 inline-flex items-center gap-3"
             >
-              <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-[#b5d548] text-[#172725]">
-                <Code2 size={23} strokeWidth={2.4} />
+              <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-[#9fc70f] text-[#172725]">
+                <img src={LogoImg} size={23} strokeWidth={2.4} />
               </div>
 
               <div>
@@ -155,7 +155,7 @@ const Footer = () => {
                     OLD HAIBATPUR, NEAR BRAHMA  MANDIR, 
                   <br />
                   
-                    GAUTAM BUDH NAGAR - 201301
+                    GAUTAM BUDDHA NAGAR - 201301
                 </span>
               </li>
 
@@ -166,10 +166,10 @@ const Footer = () => {
                 />
 
                 <a
-                  href="mailto:hello@logicforge.dev"
+                  href="mailto:info@ktstechai.com"
                   className="text-[15px] text-white/55 transition-colors hover:text-white"
                 >
-                  hello@ktstechai.dev
+                  info@ktstechai.com
                 </a>
               </li>
 
@@ -201,21 +201,21 @@ const Footer = () => {
             <div className="flex items-center gap-6 text-sm text-white/35">
 
               <a
-                href="#"
+                href=""
                 className="transition-colors hover:text-white"
               >
                 Privacy
               </a>
 
               <a
-                href="#"
+                href=""
                 className="transition-colors hover:text-white"
               >
                 Terms
               </a>
 
               <a
-                href="#"
+                href=""
                 className="transition-colors hover:text-white"
               >
                 Support

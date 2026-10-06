@@ -38,7 +38,7 @@ function Benefits() {
 
         {/* CONTENT */}
         <div>
-          <p className="mb-[22px] flex items-center gap-2.5 text-[11px] font-extrabold uppercase tracking-[0.16em] text-[#72934a]">
+          <p className="mb-[22px] flex items-center gap-2.5 text-[15px] font-extrabold tracking-[0.16em] text-[#72934a]">
             <span className="inline-block h-0.5 w-[29px] bg-current" />
             Why KtsTechAi
           </p>
