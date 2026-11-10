@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { ArrowRight, Menu, PackageCheck, X } from "lucide-react";
-import LogoImg from "../assets/logo.png";
+import LogoImg from "../assets/loogg.jpeg";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -28,7 +28,7 @@ function Navbar() {
         aria-label="LogicForge home"
         className="inline-flex items-center gap-2.5 text-[21px] font-[750] tracking-[-0.8px] text-white"
       >
-        <span className="grid size-[34px] place-items-center rounded-[10px] bg-[#9fc70f] text-[#1a2a21]">
+        <span className="grid size-[60px] place-items-center rounded-[10px] bg-[#edf1de] text-[#1a2a21]">
           <img src={LogoImg} size={22} strokeWidth={2.5} />
         </span>
 
@@ -67,14 +67,14 @@ function Navbar() {
         ))}
 
         {/* CTA */}
-        <a
+        {/* <a
           href="#contact"
           onClick={closeMenu}
           className="inline-flex items-center justify-center gap-2.5 rounded-[5px] bg-white px-[19px] py-[13px] text-[#152323] transition-transform duration-200 hover:-translate-y-0.5 max-[780px]:text-center"
         >
           Start a project
           <ArrowRight size={16} />
-        </a>
+        </a> */}
       </div>
     </nav>
   );

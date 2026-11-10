@@ -7,7 +7,7 @@ import {
   ShieldCheck,
   Sparkles,
 } from "lucide-react";
-import LogoImg from "../assets/logo.png";
+import LogoImg from "../assets/Kts.png";
 
 
 const Footer = () => {
@@ -53,7 +53,7 @@ const Footer = () => {
               href="#home"
               className="mb-6 inline-flex items-center gap-3"
             >
-              <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-[#9fc70f] text-[#172725]">
+              <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-[#e1e4d6] text-[#172725]">
                 <img src={LogoImg} size={23} strokeWidth={2.4} />
               </div>
 
