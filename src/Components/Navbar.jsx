@@ -28,9 +28,9 @@ function Navbar() {
         aria-label="LogicForge home"
         className="inline-flex items-center gap-2.5 text-[21px] font-[750] tracking-[-0.8px] text-white"
       >
-        <span className="grid size-[60px] place-items-center rounded-[10px] bg-[#edf1de] text-[#1a2a21]">
+        {/* <span className="grid size-[60px] place-items-center rounded-[10px] bg-[#edf1de] text-[#1a2a21]">
           <img src={LogoImg} size={22} strokeWidth={2.5} />
-        </span>
+        </span> */}
 
         <span>
           Kts<span className="text-[#b5d548]">TechAi</span>

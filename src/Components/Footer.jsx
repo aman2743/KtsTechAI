@@ -53,13 +53,15 @@ const Footer = () => {
               href="#home"
               className="mb-6 inline-flex items-center gap-3"
             >
-              <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-[#e1e4d6] text-[#172725]">
+              {/* <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-[#e1e4d6] text-[#172725]">
                 <img src={LogoImg} size={23} strokeWidth={2.4} />
-              </div>
+              </div> */}
 
               <div>
                 <div className="text-xl font-bold tracking-[-0.03em]">
-                  KtsTechAi
+                  <span>
+          Kts<span className="text-[#b5d548]">TechAi</span>
+        </span>
                 </div>
 
                 <div className="text-xs font-medium text-white/45">
